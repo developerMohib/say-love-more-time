@@ -3,52 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>love letter</title>
+    <title>love letter to You my Beautiful</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        body{
-            text-align: center;
-        }
-        h5{
-            font-size: 22px;
-        }
-        button{
-            background-color: aqua;
-            border: none;
-            padding: 10px;
-            border-radius: 10px;
-            font-size: 22px;
-        }
-        button:hover{
-            background-color: rgb(13, 180, 180);
-        }
-    </style>
 </head>
 <body>
-    <h1>Hello Hei Beautiful</h1>
-    <h5>i say u 1000 times</h5>
-    <button onclick="love()"> check </button>
-    <p id=" innterLove"> </p>
+    <!----------- HTML File  ------------>
+    <h1>Hi, Beautiful</h1>
+    <h5>I Say You 1000 times</h5>
 
 
-    <!--  -->
-    
-    <!--  -->
-
-
-
-
-
+    <div class="playAudioBtn">
+        <button class="" id="checNumkHide" onclick="love()"> Check </button>
+        <button id="playAudio" class="design" onclick="playAudio()"> Play Sound</button>
+    </div>
+    <p id="innterLove"> </p>
 
     
-    <script>
-        function love(){
-            const text = document.getElementById('innterLove');
-            for (let i = 0; i <= 1000; i++) {
-                document.write( `i love you : ${i} <br>`)
-            }
-        }
-    </script>
+
+<!-------- Script File Js ---------->
+
+
+
+<script src="./app.js"></script>
+    
 
 </body>
 </html>

@@ -1,0 +1,34 @@
+
+body{
+    text-align: center;
+}
+h5{
+    font-size: 22px;
+}
+button{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+button:hover{
+    background-color: rgb(13, 180, 180);
+}
+li{
+    list-style: none;
+}
+.design{
+    display: none;
+}
+.design-b{
+    display: block;
+}
+.playAudioBtn{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.hideCheck{
+    display: none;
+}
